@@ -120,7 +120,7 @@ with open('./data/ArtistAlbumsOutput.csv', 'w') as f:
     w = csv.writer(f)
     w.writerow(header)
     for i in range(len(unique_artists)):
-        artist_album = getArtistAlbums('artist:'+unique_artists[i]) #call getArtistAlbums() with query parameter
+        artist_album = getArtistAlbums(unique_artists[i]) #call getArtistAlbums() with query parameter
         l = []
         l.append(unique_artists[i])
         l.append(artist_album)
