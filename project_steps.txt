@@ -1,0 +1,18 @@
+1. Get Spotify API credentials here: https://developer.spotify.com/
+
+2. Install Spotipy python library
+
+3. Install Pandas library
+
+4. Read 1 record per type (artist, album, playlist, track) and study it.
+
+5. Read data as pandas dataframe
+https://medium.com/@RareLoot/extracting-spotify-data-on-your-favourite-artist-via-python-d58bc92a4330
+
+6. Increase the limit on records retrieved - do the outer loop
+https://tgel0.github.io/blog/spotify-data-project-part-1-from-data-retrieval-to-first-insights/
+
+7. Learn advantages of using pandas dataframe
+
+8. Write lambda function for string manipulation
+https://stackoverflow.com/questions/33257344/how-to-remove-special-characers-from-a-column-of-dataframe-using-module-re
