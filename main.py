@@ -5,8 +5,8 @@ import pandas
 import json
 import re
 
-client_id = '08948d34937146768e380e166f34ee5a'
-secret = '0ed8b2790dc946d88d74eccbcb45e62b'
+client_id = ''
+secret = ''
 
 client_credential_manager = SpotifyClientCredentials(client_id=client_id, client_secret=secret)
 
